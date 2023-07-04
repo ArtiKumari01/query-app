@@ -1,0 +1,22 @@
+{
+  "name": "query-app",
+  "version": "1.0.0",
+  "description": "This app is used for creating a to-do list",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Arti Kumari",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "openai": "^3.2.1",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "toastify-js": "^1.12.0"
+  }
+}
